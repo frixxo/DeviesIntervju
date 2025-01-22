@@ -3,10 +3,8 @@ package DeviesIntervju.API.model;
 import java.util.HashMap;
 
 public class Customer {
-    private double money;
-
     private int id;
-
+    private double money;
     private HashMap<Book,Integer> books;
 
     public Customer(double money,int id) {
@@ -33,6 +31,7 @@ public class Customer {
             books.replace(b,books.get(b)+amount);
         else
             books.put(b,amount);
+        if(books.get(b)==0) books.remove(b);
     }
 
     public double getMoney() {

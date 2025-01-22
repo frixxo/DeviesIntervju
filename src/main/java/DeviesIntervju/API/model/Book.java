@@ -10,16 +10,14 @@ public class Book {
     public String author;
     public Genre genre;
     public int pageCount;
-    public double price;
 
-    public Book(int id, String title, int publishYear, String author, Genre genre, int pageCount, double price) {
+    public Book(int id, String title, int publishYear, String author, Genre genre, int pageCount) {
         this.id = id;
         this.title = title;
         this.publishYear = publishYear;
         this.author = author;
         this.genre = genre;
         this.pageCount = pageCount;
-        this.price = price;
     }
 
     @Override
