@@ -4,17 +4,15 @@ import DeviesIntervju.API.controller.BookShopController;
 import DeviesIntervju.API.model.*;
 import DeviesIntervju.service.*;
 
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import org.junit.Assert;
 import org.junit.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
-@SpringBootTest
+
 public class Tests {
     @Test
     public void moveMoneyWhenBuyingTest(){
