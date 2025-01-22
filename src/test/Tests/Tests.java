@@ -1,8 +1,6 @@
-package DeviesIntervju;
-
 import DeviesIntervju.API.controller.BookShopController;
-import DeviesIntervju.API.model.*;
 import DeviesIntervju.service.*;
+import DeviesIntervju.API.model.*;
 
 import org.junit.Assert;
 import org.junit.Test;

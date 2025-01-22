@@ -1,6 +1,5 @@
 package DeviesIntervju.API.controller;
 
-import DeviesIntervju.API.model.Book;
 import DeviesIntervju.API.model.Customer;
 import DeviesIntervju.API.model.Genre;
 import DeviesIntervju.API.model.StockEntry;
@@ -10,9 +9,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 @RestController
 public class BookShopController {
