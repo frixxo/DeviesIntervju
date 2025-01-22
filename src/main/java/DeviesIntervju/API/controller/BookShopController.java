@@ -66,7 +66,7 @@ public class BookShopController {
             if (maxPublishYear != null) matches &= stockEntry.getBook().publishYear <= maxPublishYear;
             if (id != null) matches &= stockEntry.getBook().id == id;
             if (genres != null) matches &= genres.contains(stockEntry.getBook().genre);
-            if  (notOwnedByUserId != null) matches &= bookShop.getCustomerById(notOwnedByUserId).getBooks().containsKey(stockEntry.getBook());
+            if  (notOwnedByUserId != null) matches &= !bookShop.getCustomerById(notOwnedByUserId).getBooks().containsKey(stockEntry.getBook());
             return matches;
         });
     }
