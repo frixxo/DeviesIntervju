@@ -1,0 +1,14 @@
+package DeviesIntervju.API.model;
+
+public enum Genre {
+    SCI_FI,
+    ROMANCE,
+    FANTASY,
+    HORROR,
+    BIOGRAPHY,
+    MEMOIR,
+    HISORICAL,
+    EDUCATIONAL,
+    TRUE_CRIME,
+    ADVENTURE, LITERARY_FICTION, MYSTERY, HISTORICAL_FICTION, DYSTOPIAN, BUSSINESS
+}
